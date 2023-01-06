@@ -1,8 +1,6 @@
 package RestAssures.API1;
 
 import io.restassured.http.ContentType;
-import lombok.Data;
-import org.checkerframework.checker.units.qual.A;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +10,7 @@ import java.util.stream.Collectors;
 
 import static io.restassured.RestAssured.given;
 
-public class ReqresTest {
+public class ReqresPojoTest {
 
     private final static String URL = "https://reqres.in/";
 
