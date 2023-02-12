@@ -1,4 +1,4 @@
-package RestAssures.API1;
+package RestAssured.API1;
 
 import io.restassured.http.ContentType;
 import org.testng.Assert;

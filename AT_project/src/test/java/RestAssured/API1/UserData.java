@@ -1,9 +1,4 @@
-package RestAssures.API1;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+package RestAssured.API1;
 
 public class UserData {
 

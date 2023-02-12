@@ -1,17 +1,14 @@
-package RestAssures.API2;
+package RestAssured.API2;
 
-import RestAssures.API1.*;
-import io.restassured.http.ContentType;
+import RestAssured.API1.*;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.time.Clock;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;

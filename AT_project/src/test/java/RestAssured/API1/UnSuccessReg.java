@@ -1,4 +1,5 @@
-package RestAssures.API1;
+package RestAssured.API1;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,9 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Register {
+public class UnSuccessReg {
 
-    private String email;
-    private String password;
-
+    private String error;
 }
